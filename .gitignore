@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated build files
+.build/
+desktop-pet/assets/
+*.spec
+
+# Local tools and editor state
+.agents/
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Local application settings
+settings.json
