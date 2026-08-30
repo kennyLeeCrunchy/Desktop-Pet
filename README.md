@@ -1,4 +1,6 @@
-# KIMACHI Desktop Pet
+# Desktop Pet
+
+## KIMACHI Desktop Pet
 
 ![Kimachi preview](docs/kimachi-preview.png)
 
@@ -6,6 +8,18 @@ KIMACHI is a fan-made animated desktop pet based on
 [Kim Chaewon's](https://le-sserafim.fandom.com/wiki/Kim_Chaewon)
 representative character. She is a brave, focused, and slightly tsundere
 golden baby cheetah who can live in Codex or directly on a Windows desktop.
+
+## Galgyo Desktop Pet
+
+![Galgyo preview](docs/galgyo-preview.png)
+
+Galgyo is a fan-made animated desktop pet based on a derivative character
+inspired by aespa member [Winter](https://en.wikipedia.org/wiki/Winter_(singer)).
+This cute white puppy can live in Codex or directly on a Windows desktop.
+Galgyo is an unofficial, non-commercial fan-made derivative character; this
+project is not affiliated with or endorsed by aespa, Winter, SM Entertainment,
+or any rights holder. Character and related IP rights remain with the original
+creators and applicable rights holders.
 
 ## Download
 
