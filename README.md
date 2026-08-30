@@ -30,6 +30,29 @@ To install it manually in Codex, extract the `kimachi` folder into:
 
 Then open Codex and select Kimachi under **Settings → Appearance → Pets**.
 
+### Galgyo Windows desktop app
+
+Download [GALGYO-Windows.zip](publish/GALGYO-Windows.zip), extract it, and
+double-click `GALGYO.exe`. Codex and Python are not required.
+
+### Galgyo Codex and Petdex package
+
+Download [galgyo-petdex.zip](publish/galgyo-petdex.zip). The package contains
+the Codex-compatible `pet.json` and v2 `spritesheet.webp`.
+
+To install it manually in Codex, extract the `galgyo` folder into:
+
+```text
+~/.codex/pets/galgyo
+```
+
+Then open Codex and select Galgyo under **Settings → Appearance → Pets**.
+
+Galgyo is an unofficial, non-commercial derivative character inspired by
+aespa member Winter. This project is not affiliated with or endorsed by aespa,
+Winter, SM Entertainment, or any rights holder. Character and related IP
+rights remain with the original creators and applicable rights holders.
+
 ## Windows controls
 
 - Left-drag KIMACHI to move her; the drag direction selects the matching
@@ -50,22 +73,28 @@ Settings are stored in:
 ## Repository layout
 
 ```text
-desktop-pet/              Windows app source and build script
+desktop-pet/              KIMACHI Windows app source and build script
+desktop-pet-galgyo/       Galgyo Windows app source and build script
 publish/KIMACHI-App/      Unpacked Windows release
 publish/KIMACHI-Windows.zip
 publish/kimachi/          Codex-compatible pet package
 publish/kimachi-petdex.zip
+publish/galgyo-app/       Unpacked Galgyo Windows release
+publish/GALGYO-Windows.zip
+publish/galgyo/            Codex-compatible Galgyo pet package
+publish/galgyo-petdex.zip
 ```
 
-## Build the Windows app
+## Build the Windows apps
 
 Install Python with Tkinter, Pillow, and PyInstaller, then run:
 
 ```powershell
 .\desktop-pet\build.ps1
+.\desktop-pet-galgyo\build.ps1
 ```
 
-The build is written to `publish/KIMACHI-App`.
+The builds are written to `publish/KIMACHI-App` and `publish/galgyo-app`.
 
 ## Disclaimer
 
